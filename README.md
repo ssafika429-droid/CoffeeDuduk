@@ -1,13 +1,9 @@
 
   # KopiDuduk Coffee Ordering Website
 
-  This is a code bundle for KopiDuduk Coffee Ordering Website. The original project is available at https://www.figma.com/design/K8MbJTEx1SSeyA0QAZ9mtB/KopiDuduk-Coffee-Ordering-Website.
+  KopiDuduk adalah platform pemesanan (ordering system) kopi berbasis web yang dirancang untuk mendigitalisasi pengalaman nongkrong di kedai kopi. Aplikasi ini hadir sebagai  solusi modern untuk mengatasi antrean panjang di meja kasir, memberikan kemudahan bagi pelanggan untuk memesan langsung dari tempat duduk mereka, sekaligus membantu pemilik kedai mengelola pesanan secara terintegrasi dan real-time.
 
-  ## Running the code
-
-  Run `npm i` to install the dependencies.
-
-  Run `npm run dev` to start the development server.
+Dengan antarmuka yang minimalis, bersih, dan responsif, KopiDuduk memastikan setiap pencinta kopi bisa mendapatkan cangkir kebahagiaan mereka tanpa perlu repot mengantre.
   
   ## Email dan Password Admin
 
