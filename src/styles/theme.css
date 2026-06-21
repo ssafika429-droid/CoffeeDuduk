@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* Coffee Color Palette */
+  --color-coffee-dark: #3e2723;
+  --color-coffee-medium: #6d4c41;
+  --color-coffee-light: #8d6e63;
+  --color-cream: #fdf6e3;
+  --color-beige: #f5e6d3;
+  --color-beige-dark: #e8d5be;
+  --color-brown-50: #efebe9;
+  --color-brown-100: #d7ccc8;
+  --color-brown-200: #bcaaa4;
+  --color-accent: #d4a574;
+  --color-success: #66bb6a;
+  --color-danger: #ef5350;
+  --color-warning: #ffa726;
+  
+  /* Base Colors */
+  --background: var(--color-cream);
+  --foreground: var(--color-coffee-dark);
+  --card: #ffffff;
+  --card-foreground: var(--color-coffee-dark);
+  --primary: var(--color-coffee-medium);
+  --primary-foreground: #ffffff;
+  --secondary: var(--color-beige-dark);
+  --secondary-foreground: var(--color-coffee-dark);
+  --muted: var(--color-brown-50);
+  --muted-foreground: var(--color-coffee-light);
+  --accent: var(--color-accent);
+  --accent-foreground: #ffffff;
+  --border: var(--color-brown-200);
+  --input: var(--color-brown-100);
+  --ring: var(--color-coffee-medium);
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(62, 39, 35, 0.05);
+  --shadow: 0 4px 6px -1px rgba(62, 39, 35, 0.1), 0 2px 4px -1px rgba(62, 39, 35, 0.06);
+  --shadow-md: 0 10px 15px -3px rgba(62, 39, 35, 0.1), 0 4px 6px -2px rgba(62, 39, 35, 0.05);
+  --shadow-lg: 0 20px 25px -5px rgba(62, 39, 35, 0.1), 0 10px 10px -5px rgba(62, 39, 35, 0.04);
+  
+  /* Border Radius */
+  --radius-sm: 0.25rem;
+  --radius: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  background-color: var(--background);
+  color: var(--foreground);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: var(--color-coffee-dark);
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+p {
+  color: var(--color-coffee-light);
+}
+
+button {
+  font-family: inherit;
+}
+
+input, textarea, select {
+  font-family: inherit;
+}
