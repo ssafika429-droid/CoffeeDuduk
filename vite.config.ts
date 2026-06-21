@@ -17,6 +17,9 @@ function figmaAssetResolver() {
 }
 
 export default defineConfig({
+  define: {
+    __API_BASE__: JSON.stringify(process.env.VITE_API_BASE || 'https://coffeeduduk.onrender.com/api'),
+  },
   plugins: [
     figmaAssetResolver(),
     // The React and Tailwind plugins are both required for Make, even if
@@ -27,6 +30,15 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src/app'),
+    },
+  },
+  server: {
+    proxy: {
+      '/api': {
+        target: process.env.VITE_API_BASE || 'http://localhost:5000',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api/, '/api'),
+      },
     },
   },
 })

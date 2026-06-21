@@ -1,4 +1,4 @@
-const API_BASE = 'https://coffeeduduk.onrender.com/api';
+const API_BASE = import.meta.env.VITE_API_BASE || 'https://coffeeduduk.onrender.com/api';
 
 type ApiOptions = RequestInit & {
   skipAuth?: boolean;

@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "@figma/my-make-file",
   "private": true,
   "version": "0.0.1",
@@ -80,35 +79,4 @@
       "vite": "6.3.5"
     }
   }
-=======
-  "name": "kopiduduk-backend",
-  "version": "1.0.0",
-  "private": true,
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js"
-  },
-  "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "cors": "^2.8.6",
-    "dotenv": "^16.6.1",
-    "express": "^4.22.2",
-    "jsonwebtoken": "^9.0.2",
-    "mysql2": "^3.11.5"
-  },
-  "description": "",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ssafika429-droid/CoffeeDuduk.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/ssafika429-droid/CoffeeDuduk/issues"
-  },
-  "homepage": "https://github.com/ssafika429-droid/CoffeeDuduk#readme"
->>>>>>> 0bec1bf5ae493a2366f02fa277e15d9b00df4fdf
 }
