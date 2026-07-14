@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
   # KopiDuduk Coffee Ordering Website
 
@@ -13,4 +12,3 @@ Dengan antarmuka yang minimalis, bersih, dan responsif, KopiDuduk memastikan set
 =======
 # CoffeeDuduk
 A responsive static website for Coffeeku Coffee Ordering System developed as a Midterm Project for Web Programming Course.
->>>>>>> 0bec1bf5ae493a2366f02fa277e15d9b00df4fdf
